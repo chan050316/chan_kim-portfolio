@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>룸메에 대하여(최종)</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./아아앙.css">
+    <style>
+        h2 {
+            border: 5px solid #C9C9C9;
+            padding: 0.3em 1em;
+            border-radius: 2px;
+        }
+
+        .img {
+            margin: 0.55cm 0cm;
+        }
+
+        #Roomme {
+            background: linear-gradient(to right, black, rgb(233, 233, 233));
+            padding: 0.5em 0.5em;
+            font-size: 6;
+            border-radius: 3px;
+            color: #ffffff;
+            margin-bottom: 0.55cm 0cm;
+        }
+
+        #Mimg {
+            border-radius: 50%;
+        }
+
+        .margin {
+            margin: 0.55cm;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(233, 233, 233);">
+    <header>
+        <h1 id="Roomme">룸메에 대하여</h1>
+    </header>
+
+    <div class="img">
+        <img id="Mimg" src="../html/IMG/KakaoTalk_Photo_2020-12-30-19-50-46.png" width="300">
+    </div>
+
+    <h2>인적사항</h2>
+    <ol>
+        <li>이름 : 김찬</li>
+        <li>별명 : 룸메</li>
+        <li>나이 : 17</li>
+        <li>키 : 173cm</li>
+        <li>몸무게 : 64kg</li>
+        <li>MBTI : ISFJ</li>
+        <li>전화번호 : 01065953599</li>
+        <li>E-mail : chan.ckeem@gmail.com</li>
+        <li><a href="https://gschool.kr/" , target="_blank" , title="거꾸로 캠퍼스 홈페이지">거꾸로 캠퍼스</a> 재학중</li>
+    </ol>
+    <br>
+
+    <h2>룸메의 관심분야</h2>
+    <div class="margin">
+        <table border="1">
+            <th>코딩</th>
+            <th><a href="https://namu.wiki/w/Novation%20Launchpad?from=%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C" ,
+                    title="나무위키" , target="_blank">런치패드</a></th>
+            <th>운동</th>
+        </table>
+        <br>
+    </div>
+
+    <h2>룸메의 최애 음식 ; 마카롱</h2>
+    <div class="img">
+        <img src="../html/IMG/다운로드 (3).jpeg" alt="마카롱" , width="300">
+    </div>
+
+    <h2>'룸메'의 의미</h2>
+    <div class="margin">
+        학교 들어오기 전 기숙사를 미칠 듯이 기대하고 좋아했다!
+    </div>
+
+    <h2>룸메의 SNS</h2>
+    <div class="margin">
+        <a href="https://www.instagram.com/chan_kim05/?hl=ko," , target="_blank" , title="인스타그램 주소"><img
+                src="../html/IMG/icons8-instagram-500.png" width="60" alt="인스타그램"></a>
+    </div>
+
+    <h2>룸메의 선곡</h2>
+    <div class="margin">
+        주로 공부 할 때 음악을 듣는 편이라 BGM개열을 많이 듣곤 함
+    </div>
+    <div class="margin">
+        <iframe width="280" height="167.5" src="https://www.youtube.com/embed/YySGbLCMnUY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <h2>방문자 정보 수집</h2>
+    <div class="margin">
+        다음 정보를 입력해주세요
+        <br><br>
+        <form>
+            이름 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" size="13">
+            <br><br>
+
+            나이 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="old" size="13">
+            <br><br>
+
+            휴대폰 : <input type="text" name="Phone Number1" size="3" maxlength="3">
+            <input type="text" name="Phone Number2" size="4" maxlength="4">
+            <input type="text" name="Phone Number3" size="4" maxlength="4">
+            <br><br>
+
+            이메일 : <input type="text" name="E-mail" size="13">
+            @
+            <select name="E-mail" size="1">
+                <option value="Goole">gmail.com</option>
+                <option value="Naver">naver.com</option>
+                <option value="Daum">hanmail.net</option>
+                <option value="ZUM">zum.com</option>
+            </select>
+            or <input type="text" name="E-mail" size="13">
+            <br><br>
+
+            제&nbsp;&nbsp;&nbsp;목 : <input type="text" name="Title" size="13" maxlength="15">
+            <br><br>
+
+            내용 : <br>
+            <textarea placeholder="100자 이내로 서술하시오" name="tal" rows="7" cols="40"></textarea>
+            <br><br>
+
+            파일 첨부 :
+            <input type="file">
+            <br><br>
+
+            <input type="submit" value="전송">
+            <input type="reset" value="취소">
+
+        </form>
+    </div>
+</body>
+
+</html>

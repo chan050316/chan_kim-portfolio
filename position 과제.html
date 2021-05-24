@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Position</title>
+    <style>
+        .fixed-header {
+            background-color: beige;
+            z-index: 9;
+            position: fixed;
+            height: 50px;
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+
+        .floating-action-button {
+            background-color: brown;
+            color: white;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            border-radius: 50%;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .card {
+            background-color: antiquewhite;
+            height: 400px;
+            width: 300px;
+            position: relative;
+            margin: 50px auto;
+        }
+
+        .badge {
+            background-color: aqua;
+            height: 30px;
+            width: 100px;
+            position: absolute;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-header">Header</div>
+    <div class="content">
+        <div class="card">
+            <div class="badge">
+                Badge
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                Badge
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                Badge
+            </div>
+        </div>
+        <div class="floating-action-button"></div>
+    </div>
+</body>
+
+</html>

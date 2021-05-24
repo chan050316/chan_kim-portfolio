@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+        div {
+            text-align: center;
+        }
+
+        span {
+            margin: 2px 0;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+
+        p {
+            margin: 10px;
+            /* font-family: 'Black Han Sans', sans-serif;
+            font-size: 20px; */
+            font: 20px 'Black Han Sans', sans-serif;
+        }
+
+        .flower1 {
+            background-color: pink;
+            /* border-top-left-radius: 70%;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 10px; */
+            border-radius: 70% 10px 0 50px;
+
+            text-align: right;
+        }
+
+        span:hover  {
+            background-color: black;
+        }
+
+        .flower2 {
+            background-color: orange;
+            /* border-top-right-radius: 70%;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 10px; */
+            border-radius: 10px 70% 50px 0;
+
+            text-align: left;
+        }
+
+        .flower3 {
+            background-color: aqua;
+            /* border-bottom-left-radius: 70%;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 10px; */
+            border-radius: 50px 0 10px 70%;
+
+            text-align: right;
+        }
+
+        .flower4 {
+            background-color: blue;
+            /* border-bottom-right-radius: 70%;
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 10px; */
+            border-radius: 0 50px 70% 10px;
+ 
+            text-align: left;
+        }
+
+        .rectangle {
+            display: inline-block;
+            background-color: navy;
+            width: 25px;
+            height: 200px;
+        }
+
+        .leaves1 {
+            background-color: skyblue;
+            /* border-top-right-radius: 100%;
+            border-bottom-left-radius: 100%; */
+            border-radius: 0 100% 0 100%;
+        }
+
+        .leaves2 {
+            background-color: skyblue;
+            /* border-bottom-right-radius: 100%;
+            border-top-left-radius: 100%; */
+            border-radius: 100% 0 100% 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span class="flower1">
+            <p>꽃잎1</p>
+        </span>
+        <span class="flower2">
+            <p>꽃잎2</p>
+        </span>
+    </div>
+
+    <div>
+        <span class="flower3">
+            <p>꽃잎3</p>
+        </span>
+        <span class="flower4">
+            <p>꽃잎4</p>
+        </span>
+
+    </div>
+
+    <div class="what">
+        <span class="leaves1">
+        </span>
+        <span class="rectangle">
+        </span>
+        <span class="leaves2">
+        </span>
+    </div>
+</body>
+
+</html>
