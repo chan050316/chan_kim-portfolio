@@ -26,6 +26,8 @@ body {
         }
 
     #Bar {
+        top: 100vh;
+        bottom: 0;
         background-color: black;
         width: 100vw;
         height: 25vh;
