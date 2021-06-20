@@ -16,13 +16,14 @@ body {
         position: fixed;
         display: flex;
         flex-direction: column;
-        font-size: 100px;
         align-items: center;
         justify-content: center;
     }
 
         #name {
             margin: auto;
+            font-size: 100px;
+            font-weight: bolder;
         }
 
     #Bar {
