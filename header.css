@@ -10,5 +10,6 @@ body, header {
 .header_Box {
     width: 100vw;
     height: 10vh;
-    background-color: black;
+    background-color: gray;
+    opacity: 20%;
 }
