@@ -1,0 +1,14 @@
+/* Reset */
+
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header*/
+
+.header_Box {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}

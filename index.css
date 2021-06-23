@@ -1,35 +1,68 @@
-body {
+/* Reset */
+
+body,ul,li,section{
+    padding: 0;
     margin: 0;
 }
 
+/* NAME */
 
-    #section1 {
-        height: 100vh;
-        width: 100vw;
-        position: fixed;
-        z-index: -10;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+#section1 {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    #name {
+        margin: auto;
+        font-size: 100px;
+        font-weight: bolder;
+        height: 1.2em;
+        overflow: hidden;
     }
 
-        #name {
-            margin: auto;
-            font-size: 100px;
-            font-weight: bolder;
+        .name_ul {
+            margin-top: 0;
+            animation-name: Textrolling;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
         }
 
-    #white_Box {
-        height: 100vh;
-        width: 100vw;
-    }
+        .name_txt {
+            list-style-type: none;
+        }
+
+#white_Box {
+    height: 100vh;
+    width: 100vw;
+}
     
-    #Bar {
-        background-color: #3e3e3e;
-        width: 100vw;
-        height: 50vh;
+#Bar {
+    background-color: black;
+    opacity: 80%;
+    width: 100vw;
+    height: 40vh;
+}
+
+
+/* Animation */
+
+@keyframes Textrolling{
+    0% {
+        transform: translateY(0);
     }
 
-        
+    50% {
+        transform: translateY(-33%);
+    }
 
+    100% {
+        transform: translateY(-66%);
+    }
+}
