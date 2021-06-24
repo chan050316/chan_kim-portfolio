@@ -5,11 +5,42 @@ body, header {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Header*/
 
-.header_Box {
-    width: 100vw;
-    height: 10vh;
-    background-color: gray;
-    opacity: 20%;
+header {
+    display: flex;
 }
+
+    #logo {
+        background-color: gray;
+        height: 30px;
+        margin: 20px 0 20px 50px;
+        width: 100px;
+    }
+
+    #headerMenu_Box {
+        height: 30px;
+        width: 42vw;
+        margin: 20px 0 20px auto;
+        display: flex;
+    }
+
+        .headerMenu {
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 30px;
+            width: 14vw;
+            text-align: center;
+            border-right: black solid 1px;
+        }
+
+        .headerMenu:nth-child(3) {
+            border: none;
+        }

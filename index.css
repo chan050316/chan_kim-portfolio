@@ -8,7 +8,7 @@ body,ul,li,section{
 /* NAME */
 
 #section1 {
-    height: 100vh;
+    height: calc(100vh - 70px);
     width: 100vw;
     position: fixed;
     z-index: -10;
@@ -45,7 +45,6 @@ body,ul,li,section{
     
 #Bar {
     background-color: black;
-    opacity: 80%;
     width: 100vw;
     height: 40vh;
 }
