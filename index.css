@@ -49,6 +49,28 @@ body,ul,li,section{
     height: 40vh;
 }
 
+#section2 {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+footer {
+    background-color: #333333;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    #personal_info {
+        color: white;
+        text-align: center;
+    }
+
 
 /* Animation */
 

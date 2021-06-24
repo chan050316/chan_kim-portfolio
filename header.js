@@ -1,15 +1,15 @@
 menu_list = [
     {
         Menu: "About Me",
-        href: "",
+        href: "./About_Me.html",
     },
     {
         Menu: "School",
-        href: "",
+        href: "./School.html",
     },
     {
         Menu: "Project",
-        href: "",
+        href: "./Project.html",
     },
 ]
 

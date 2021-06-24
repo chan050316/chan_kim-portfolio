@@ -1,0 +1,31 @@
+#contents_BBox {
+    width: 30vw;
+    height: 200vh;
+}
+
+#contents_Box1 {
+    margin-left: 180px;
+    margin-top: 93px;
+    width: 30vw;
+    height: clac(50vh - 93px);
+}
+
+#contents_Box2 {
+    margin-left: 180px;
+    width: 30vw;
+    height: 50vh;
+}
+
+    .Btext {
+        font-size: 20px;
+        height: 1.5em;
+        width: 10em;
+        border-left: solid black 2px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .Stext {
+        text-align: center;
+        margin: 3em auto;
+    }

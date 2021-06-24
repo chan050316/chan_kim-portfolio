@@ -7,8 +7,11 @@ body, header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #333333;
 }
+    a:hover {
+        font-weight: 700;
+    }
 
 /* Header*/
 
@@ -41,6 +44,6 @@ header {
             border-right: black solid 1px;
         }
 
-        .headerMenu:nth-child(3) {
-            border: none;
-        }
+            .headerMenu:nth-child(3) {
+                border: none;
+            }
