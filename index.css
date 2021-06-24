@@ -55,22 +55,6 @@ body,ul,li,section{
     width: 100vw;
 }
 
-footer {
-    background-color: #333333;
-    width: 100vw;
-    height: 300px;
-    display: flex;
-    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-    #personal_info {
-        color: white;
-        text-align: center;
-    }
-
 
 /* Animation */
 

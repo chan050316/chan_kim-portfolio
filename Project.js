@@ -3,37 +3,61 @@ var projects = [
         project_name: "개인주제 프로젝트",
         info_data: [
             {
-                project_date: "2020.3분기"
-            },
-            {
-                project_date1: "2020.4분기"
+                project_date1: "2020.3분기",
+                project_date2: "2020.4분기",
+                project_date3: ""
             }
-        ]
+        ],
+        href: ""
     },
 
     {
         project_name: "주제중심 프로젝트",
         info_data: [
             {
-                project_date1: "2020.3분기"
-            },
-            {
-                project_date2: "2020.4분기"
+                project_date1: "2020_3분기",
+                project_date2: "2020_4분기",
+                project_date3: ""
             }
-        ]
+        ],
+        href: ""
+    },
+
+    {
+        project_name: "문제정의 프로젝트",
+        info_data: [
+            {
+                project_date1: "2020_3분기",
+                project_date2: "2020_4분기",
+                project_date3: "2021_1분기 ~ 2021_2분기"
+            }
+        ],
+        href: ""
+    },
+
+    {
+        project_name: "알파랩",
+        info_data: [
+            {
+                project_date1: "M_LAB",
+                project_date2: "C_LAB",
+                project_date3: ""
+            }
+        ],
+        href: ""
     }
 ]
 
 for (var i in projects) {
     var project = projects[i]
-    console.log('2')
-    for (var j in projects[i].info_data) {
-        var project_date = project.info_data[j]
+    for (var j in project.info_data) {
+        var date = project.info_data[j]
         document.getElementById("contents_BBox").innerHTML += `
         <div id="contents_Box1">
             <div class="Btext">${project.project_name}</div>
-            <div class="Stext">${project_date.project_date1}</div>
-            <div class="Stext">${project_date.project_date2}</div>
+            <div class="Stext"><a href="${project.href}">${date.project_date1}</a></div>
+            <div class="Stext"><a href="${project.href}">${date.project_date2}</a></div>
+            <div class="Stext"><a href="${project.href}">${date.project_date3}</a></div>
         </div>
         `;
     }
