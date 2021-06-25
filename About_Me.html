@@ -18,6 +18,14 @@
         </div>
     </header>
 
+    <div id="animation_img_Box">
+
+    </div>
+
+    <div id="contents_Box">
+        
+    </div>
+
     <footer>
         <div id="personal_info">
             Phone: 010-6595-3599
@@ -32,5 +40,22 @@
     <script src="https://kit.fontawesome.com/4e2400cd04.js" crossorigin="anonymous"></script>
 
     <script src="./header.js"></script>
+    <script type="text/javascript" src="./scrolltrigger.js"></script>
+    <script>
+        const trigger = new ScrollTrigger.default({
+            trigger: {
+                once: true,
+                offset: {
+                    viewport: {
+                        x: 0,
+                        y: (trigger, frame, direction) => {
+                            return trigger.visible ? 0 : 0.4
+                        }
+                    }
+                }
+            }
+        });
+        trigger.add('[data-trigger]');
+    </script>
 </body>
 </html>
