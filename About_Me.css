@@ -6,22 +6,53 @@
 #contents_Box {
     height: 100vh;
     width: 100vw;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
+    #keyword_Box {
+        height: 50vh;
+        width: 100vw;
+    }
 
+        .My_hobby_keyword {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+            #coding {
+                position: relative;
+                top: 30vh;
+                left: 75vw;
+            }
+
+            #body_training {
+                position: relative;
+                top: 20vh;
+                left: 15vw;
+            }
+
+            #launchpad {
+                position: relative;
+                top: 35vh;
+                left: 45vw;
+            }
+
+    #Text_Box {
+        height: 50vh;
+        width: 100vw;
+    }
 
 
 /* scroll trigger*/
 
-[data-trigger]
-{
+[data-trigger] {
     opacity: 0;
     position: relative;
-    top: 50px;
-    transition: 1s ease-in;
+    left: 10px;
+    transition: .5s ease-in;
 }
-[data-trigger].visible
-{
+
+[data-trigger].visible {
     opacity: 1;
-    top: 0;
+    left: 0;
 }

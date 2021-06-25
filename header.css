@@ -17,6 +17,7 @@ a {
 
 header {
     display: flex;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
     #logo {
