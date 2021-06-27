@@ -3,7 +3,7 @@ var projects = [
         project_name: "개인주제 프로젝트",
         info_data: [
             {
-                href_1: "./project_info.html",
+                href_1: "./project_info_single1.html",
                 project_date1: "2020.3분기",
                 project_date2: "2020.4분기",
                 project_date3: ""
