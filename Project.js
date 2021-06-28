@@ -33,19 +33,18 @@ var projects = [
                 project_date3: "2021_1분기 ~ 2021_2분기"
             }
         ],
-        href: ""
     },
 
     {
         project_name: "알파랩",
         info_data: [
             {
+                href_1: "",
                 project_date1: "M_LAB",
                 project_date2: "C_LAB",
                 project_date3: ""
             }
         ],
-        href: ""
     }
 ]
 
@@ -53,8 +52,8 @@ for (var i in projects) {
     var project = projects[i]
     for (var j in project.info_data) {
         var date = project.info_data[j]
-        document.getElementById("contents_BBox").innerHTML += `
-        <div id="contents_Box1">
+        document.getElementById("project_Box").innerHTML += `
+        <div id="contents_Box">
             <div class="Btext">${project.project_name}</div>
             <div class="Stext"><a href="${date.href_1}">${date.project_date1}</a></div>
             <div class="Stext"><a href="${project.href}">${date.project_date2}</a></div>

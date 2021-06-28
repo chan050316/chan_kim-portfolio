@@ -1,22 +1,26 @@
-#contents_Box1 {
-    margin: 180px;
-    width: 30vw;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
+#project_Box {
+    width: 50vw;
 }
 
-    .Btext {
-        font-size: 20px;
-        height: 1.5em;
-        width: 10em;
-        border-left: solid black 2px;
-        text-align: center;
-        line-height: 1.5em;
-        margin-top: 8em;
-        margin-right: 0;
+    #contents_Box {
+        margin: 180px 0 0 180px;
+        width: 30vw;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
     }
 
-    .Stext {
-        text-align: center;
-        margin: 5em auto;
-    }
+        .Btext {
+            font-size: 20px;
+            height: 1.5em;
+            width: 10em;
+            border-left: solid black 2px;
+            text-align: center;
+            line-height: 1.5em;
+            margin-top: 8em;
+            margin-right: 0;
+        }
+
+        .Stext {
+            text-align: center;
+            margin: 5em auto;
+        }
