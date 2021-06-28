@@ -5,10 +5,18 @@ var projects = [
             {
                 href_1: "./project_info_single1.html",
                 project_date1: "2020.3분기",
+                class_name_1: "Stxt1",
+                hover_1: "Stext_hover_1",
+
                 href_2: "",
                 project_date2: "2020.4분기",
+                class_name_2: "Stxt2",
+                hover_2: "Stext_hover_2",
+
                 href_3: "",
-                project_date3: ""
+                project_date3: "",
+                class_name_3: "",
+                hover_3: "",
             }
         ]
     },
@@ -19,10 +27,18 @@ var projects = [
             {
                 href_1: "",
                 project_date1: "2020_3분기",
+                class_name_1: "Stxt3",
+                hover_1: "Stext_hover_3",
+                
                 href_2: "",
                 project_date2: "2020_4분기",
+                class_name_2: "Stxt4",
+                hover_2: "Stext_hover_4",
+
                 href_3: "",
-                project_date3: ""
+                project_date3: "",
+                class_name_3: "",
+                hover_3: "",
             }
         ]
     },
@@ -33,10 +49,18 @@ var projects = [
             {
                 href_1: "",
                 project_date1: "2020_3분기",
+                class_name_1: "Stxt5",
+                hover_1: "Stext_hover_5",
+
                 href_2: "",
                 project_date2: "2020_4분기",
+                class_name_2: "Stxt6",
+                hover_2: "Stext_hover_6",
+
                 href_3: "",
-                project_date3: "2021_1분기 ~ 2021_2분기"
+                project_date3: "2021_1분기 ~ 2021_2분기",
+                class_name_3: "Stxt7",
+                hover_3: "Stext_hover_7",
             }
         ],
     },
@@ -47,10 +71,18 @@ var projects = [
             {
                 href_1: "",
                 project_date1: "M_LAB",
+                class_name_1: "Stxt8",
+                hover_1: "Stext_hover_8",
+
                 href_2: "",
                 project_date2: "C_LAB",
+                class_name_2: "Stxt9",
+                hover_2: "Stext_hover_9",
+
                 href_3: "",
-                project_date3: ""
+                project_date3: "",
+                class_name_3: "",
+                hover_3: "",
             }
         ],
     }
@@ -59,13 +91,19 @@ var projects = [
 for (var i in projects) {
     var project = projects[i]
     for (var j in project.info_data) {
-        var date = project.info_data[j]
+        var data = project.info_data[j]
         document.getElementById("project_Box").innerHTML += `
         <div class="contents_Box">
             <div class="Btext">${project.project_name}</div>
-            <div class="Stext"><a href="${date.href_1}">${date.project_date1}</a></div>
-            <div class="Stext"><a href="${date.href_2}">${date.project_date2}</a></div>
-            <div class="Stext"><a href="${date.href_3}">${date.project_date3}</a></div>
+            <div class="Stext">
+                <a href="${data.href_1}" class="${data.class_name_1}" onmouseover="${data.hover_1}()">${data.project_date1}</a>
+            </div>
+            <div class="Stext">
+                <a href="${data.href_2}" class="${data.class_name_2}" onmouseover="${data.hover_2}()">${data.project_date2}</a>
+            </div>
+            <div class="Stext">
+                <a href="${data.href_3}" class="${data.class_name_3}" onmouseover="${data.hover_3}()">${data.project_date3}</a>
+            </div>
         </div>
         `;
     }
@@ -105,17 +143,17 @@ var project_info = [
     },
     {
         id_name: "team_M1M2",
-        project_info_name: "사회적 거리두기로 인한 삼시세끼의 변화",
+        project_info_name: "윈썸",
         img_class_name: "image7",
     },
     {
         id_name: "alpha_M",
-        project_info_name: "사회적 거리두기로 인한 삼시세끼의 변화",
+        project_info_name: "SSAP",
         img_class_name: "image8",
     },
     {
         id_name: "alpha_C",
-        project_info_name: "사회적 거리두기로 인한 삼시세끼의 변화",
+        project_info_name: "웹페이지 만들기",
         img_class_name: "image9",
     }
 ]
@@ -133,46 +171,131 @@ for (var i in project_info) {
     `;
 }
 
+var Stxt1 = document.getElementById('Stxt1')
+var Stxt2 = document.getElementById('Stxt2')
+var Stxt3 = document.getElementById('Stxt3')
+var Stxt4 = document.getElementById('Stxt4')
+var Stxt5 = document.getElementById('Stxt5')
+var Stxt6 = document.getElementById('Stxt6')
+var Stxt7 = document.getElementById('Stxt7')
+var Stxt8 = document.getElementById('Stxt8')
+var Stxt9 = document.getElementById('Stxt9')
 
-// document.getElementById('single_M3')
-// document.getElementById('single_M4')
-// document.getElementById('subject_M3')
-// document.getElementById('subject_M4')
-// document.getElementById('team_M3')
-// document.getElementById('team_M4')
-// document.getElementById('team_M1M2')
-// document.getElementById('alpha_M')
-// document.getElementById('alpha_C')
+var single_M3 = document.getElementById('single_M3')
+var single_M4 = document.getElementById('single_M4')
+var subject_M3 = document.getElementById('subject_M3')
+var subject_M4 = document.getElementById('subject_M4')
+var team_M3 = document.getElementById('team_M3')
+var team_M4 = document.getElementById('team_M4')
+var team_M1M2 = document.getElementById('team_M1M2')
+var alpha_M = document.getElementById('alpha_M')
+var alpha_C = document.getElementById('alpha_C')
 
 
-// function Stext_hover_1() {
+function Stext_hover_1() {
+    single_M3.style.display='block'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// }
+function Stext_hover_2() {
+    single_M3.style.display='none'
+    single_M4.style.display='block'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// function Stext_hover_2() {
+function Stext_hover_3() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='block'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// }
+function Stext_hover_4() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='block'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// function Stext_hover_3() {
+function Stext_hover_5() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='block'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// }
+function Stext_hover_6() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='block'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// function Stext_hover_4() {
+function Stext_hover_7() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='block'
+    alpha_M.style.display='none'
+    alpha_C.style.display='none'
+}
 
-// }
+function Stext_hover_8() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='block'
+    alpha_C.style.display='none'
+}
 
-// function Stext_hover_5() {
-
-// }
-
-// function Stext_hover_6() {
-
-// }
-
-// function Stext_hover_7() {
-
-// }
-
-// function Stext_hover_8() {
-
-// }
+function Stext_hover_8() {
+    single_M3.style.display='none'
+    single_M4.style.display='none'
+    subject_M3.style.display='none'
+    subject_M4.style.display='none'
+    team_M3.style.display='none'
+    team_M4.style.display='none'
+    team_M1M2.style.display='none'
+    alpha_M.style.display='none'
+    alpha_C.style.display='block'
+}
