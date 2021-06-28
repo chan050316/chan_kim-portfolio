@@ -72,9 +72,7 @@ header {
             }
         
             /* Hover_Text */
-            .black_box:nth-child(1):hover {
-                
-            }
+            
 
         .black_box:nth-child(3) {
             grid-area: 2/1/3/3;
