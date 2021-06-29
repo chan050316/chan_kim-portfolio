@@ -55,6 +55,7 @@ header {
 }
     
 #Bar {
+    position: relative;
     background-color: #333333;
     width: 100vw;
     height: 40vh;
@@ -63,6 +64,7 @@ header {
     font-size: 35px;
     text-align: center;
     line-height: 40vh;
+    z-index: 20;
 }
 
 #White_string {

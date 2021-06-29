@@ -8,7 +8,7 @@ var projects = [
                 class_name_1: "Stxt1",
                 hover_1: "Stext_hover_1",
 
-                href_2: "",
+                href_2: "./project_info_single2.html",
                 project_date2: "2020.4분기",
                 class_name_2: "Stxt2",
                 hover_2: "Stext_hover_2",
@@ -25,12 +25,12 @@ var projects = [
         project_name: "주제중심 프로젝트",
         info_data: [
             {
-                href_1: "",
+                href_1: "./project_info_subject1.html",
                 project_date1: "2020_3분기",
                 class_name_1: "Stxt3",
                 hover_1: "Stext_hover_3",
                 
-                href_2: "",
+                href_2: "./project_info_subject2.html",
                 project_date2: "2020_4분기",
                 class_name_2: "Stxt4",
                 hover_2: "Stext_hover_4",
@@ -47,17 +47,17 @@ var projects = [
         project_name: "문제정의 프로젝트",
         info_data: [
             {
-                href_1: "",
+                href_1: "./project_info_team1.html",
                 project_date1: "2020_3분기",
                 class_name_1: "Stxt5",
                 hover_1: "Stext_hover_5",
 
-                href_2: "",
+                href_2: "./project_info_team2.html",
                 project_date2: "2020_4분기",
                 class_name_2: "Stxt6",
                 hover_2: "Stext_hover_6",
 
-                href_3: "",
+                href_3: "./project_info_team3.html",
                 project_date3: "2021_1분기 ~ 2021_2분기",
                 class_name_3: "Stxt7",
                 hover_3: "Stext_hover_7",
@@ -69,12 +69,12 @@ var projects = [
         project_name: "알파랩",
         info_data: [
             {
-                href_1: "",
+                href_1: "./project_info_alpha1.html",
                 project_date1: "M_LAB",
                 class_name_1: "Stxt8",
                 hover_1: "Stext_hover_8",
 
-                href_2: "",
+                href_2: "./project_info_alpha2.html",
                 project_date2: "C_LAB",
                 class_name_2: "Stxt9",
                 hover_2: "Stext_hover_9",
@@ -139,7 +139,7 @@ var project_info = [
     {
         id_name: "team_M4",
         project_info_name: "전통시장이 활성화되지 않는 것이 문제이다",
-        img_class_name: "image6s",
+        img_class_name: "image6",
     },
     {
         id_name: "team_M1M2",
@@ -165,7 +165,7 @@ for (var i in project_info) {
         <div class="project_Name">
             ${info.project_info_name}
         </div>
-        <div id="${info.img_class_name}">
+        <div id="${info.img_class_name}" class="project_info_img" onclick = "location.href=";>
         </div>
     </div>
     `;

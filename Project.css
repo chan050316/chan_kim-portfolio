@@ -49,60 +49,117 @@
         font-size: 30px;
     }
 
+        .project_info_img {
+            box-shadow: gray 10px 10px 10px;
+        }
+
         #single_M3 {
             display: none;
         }
             #image1 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                background-image: url(./IMG/single1.jpeg);
+                margin-top: 5vh;
+                background-size: 70%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 70%;
             }
 
         #single_M4 {
             display: none;
         }
             #image2 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                background-image: url(./IMG/single2.jpeg);
+                margin-top: 5vh;
+                background-size: 70%;
+                background-repeat: no-repeat;
+                background-position: center 30%;
+                opacity: 90%;
             }
 
         #subject_M3 {
             display: none;
         }
             #image3 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                background-image: url(./IMG/subject1.jpeg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 80%;
             }
 
         #subject_M4 {
             display: none;
         }
             #image4 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                margin-top: 5vh;
+                background-image: url(./IMG/subject2.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 80%;
             }
 
         #team_M3 {
             display: none;
         }
             #image5 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                background-image: url(./IMG/team1.jpeg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 80%;
             }
 
         #team_M4 {
             display: none;
         }
             #image6 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                margin-top: 5vh;
+                background-image: url(./IMG/team2.jpeg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 80%;
             }
 
         #team_M1M2 {
             display: none;
         }
             #image7 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                margin-top: 5vh;
+                background-image: url(./IMG/team3.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 80%;
             }
 
         #alpha_M {
             display: none;
         }
             #image8 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                background-image: url(./IMG/alpha1.jpeg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                opacity: 80%;
             }
 
         #alpha_C {
