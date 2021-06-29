@@ -71,7 +71,7 @@
                 background-size: 70%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #single_M4 {
@@ -85,7 +85,7 @@
                 background-size: 70%;
                 background-repeat: no-repeat;
                 background-position: center 30%;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #subject_M3 {
@@ -98,7 +98,7 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #subject_M4 {
@@ -112,7 +112,7 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #team_M3 {
@@ -125,7 +125,7 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #team_M4 {
@@ -139,7 +139,7 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #team_M1M2 {
@@ -153,7 +153,7 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #alpha_M {
@@ -166,7 +166,7 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
-                opacity: 70%;
+                filter: grayscale(100%);
             }
 
         #alpha_C {
@@ -179,9 +179,9 @@
 /* Animation */
 @keyframes img_opacity_change {
     0% {
-        opacity: 70%;
+        filter: grayscale(100%);
     }
     100% {
-        opacity: 100%;
+        filter: grayscale(0%);
     }
 }
