@@ -171,16 +171,6 @@ for (var i in project_info) {
     `;
 }
 
-var Stxt1 = document.getElementById('Stxt1')
-var Stxt2 = document.getElementById('Stxt2')
-var Stxt3 = document.getElementById('Stxt3')
-var Stxt4 = document.getElementById('Stxt4')
-var Stxt5 = document.getElementById('Stxt5')
-var Stxt6 = document.getElementById('Stxt6')
-var Stxt7 = document.getElementById('Stxt7')
-var Stxt8 = document.getElementById('Stxt8')
-var Stxt9 = document.getElementById('Stxt9')
-
 var single_M3 = document.getElementById('single_M3')
 var single_M4 = document.getElementById('single_M4')
 var subject_M3 = document.getElementById('subject_M3')
@@ -288,7 +278,7 @@ function Stext_hover_8() {
     alpha_C.style.display='none'
 }
 
-function Stext_hover_8() {
+function Stext_hover_9() {
     single_M3.style.display='none'
     single_M4.style.display='none'
     subject_M3.style.display='none'

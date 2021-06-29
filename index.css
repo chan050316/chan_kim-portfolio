@@ -12,10 +12,6 @@ header {
 }
 
     #headerMenu_Box {
-        height: 30px;
-        width: 42vw;
-        margin: 20px 0;
-        display: flex;
         position: fixed;
         right: 0;
     }
