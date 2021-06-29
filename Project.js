@@ -165,7 +165,7 @@ for (var i in project_info) {
         <div class="project_Name">
             ${info.project_info_name}
         </div>
-        <div id="${info.img_class_name}" class="project_info_img" onclick = "location.href=";>
+        <div id="${info.img_class_name}" class="project_info_img">
         </div>
     </div>
     `;
