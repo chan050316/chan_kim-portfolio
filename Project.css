@@ -66,7 +66,7 @@
             #image1 {
                 height: 60vh;
                 width: 35vw;
-                background-image: url(./IMG/single1.jpeg);
+                background-image: url(./IMG/single1.png);
                 margin-top: 5vh;
                 background-size: 70%;
                 background-repeat: no-repeat;
@@ -80,7 +80,7 @@
             #image2 {
                 height: 60vh;
                 width: 35vw;
-                background-image: url(./IMG/single2.jpeg);
+                background-image: url(./IMG/single2.png);
                 margin-top: 5vh;
                 background-size: 70%;
                 background-repeat: no-repeat;
@@ -94,7 +94,7 @@
             #image3 {
                 height: 60vh;
                 width: 35vw;
-                background-image: url(./IMG/subject1.jpeg);
+                background-image: url(./IMG/subject1.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -108,7 +108,7 @@
                 height: 60vh;
                 width: 35vw;
                 margin-top: 5vh;
-                background-image: url(./IMG/subject2.jpg);
+                background-image: url(./IMG/subject2.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -121,7 +121,7 @@
             #image5 {
                 height: 60vh;
                 width: 35vw;
-                background-image: url(./IMG/team1.jpeg);
+                background-image: url(./IMG/team1.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -135,7 +135,7 @@
                 height: 60vh;
                 width: 35vw;
                 margin-top: 5vh;
-                background-image: url(./IMG/team2.jpeg);
+                background-image: url(./IMG/team2.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -149,7 +149,7 @@
                 height: 60vh;
                 width: 35vw;
                 margin-top: 5vh;
-                background-image: url(./IMG/team3.jpg);
+                background-image: url(./IMG/team3.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -162,7 +162,7 @@
             #image8 {
                 height: 60vh;
                 width: 35vw;
-                background-image: url(./IMG/alpha1.jpeg);
+                background-image: url(./IMG/alpha1.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: center center;
