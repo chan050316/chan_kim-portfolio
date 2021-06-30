@@ -96,7 +96,19 @@ header {
                     -20px -20px 40px #404040;
         width: 70vw;
         height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        line-height: 50px;
+        font-family: 'Nanum Gothic', sans-serif;
     }
+
+        .bord_text {
+            font-weight: bold;
+        }
 
         #Text_Box:hover {
             background: linear-gradient(145deg, #2e2e2e, #373737);
