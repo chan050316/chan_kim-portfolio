@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+    a:hover {
+        font-weight: 700;
+    }
+
+    .headerMenu {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 30px;
+        width: 14vw;
+        text-align: center;
+        border-right: white solid 1px;
+    }
+    
+#img_Box {
+    background-image: url(./IMG/single1_info.png);
+    background-size: 100%;
+    background-position: center center;
+}
