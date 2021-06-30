@@ -4,27 +4,52 @@
 }
 
     #sliding_img {
-
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
         .img {
-
+            height: 50vh;
+            width: 100%;
+            margin: 0 5vw;
         }
 
         #image1 {
             background-image: url(./IMG/About_Me1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            animation-name: sliding_img_1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
         }
 
         #image2 {
             background-image: url(./IMG/About_Me2.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
 
         #image3 {
             background-image: url(./IMG/About_Me3.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        #image4 {
+            background-image: url();
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
 
 #contents_Box {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -40,25 +65,25 @@
         }
 
             #coding {
-                position: relative;
                 top: 30vh;
-                left: 75vw;
+                left: 80vw;
+                /* width: 40px; */
             }
 
             #body_training {
-                position: relative;
-                top: 20vh;
-                left: 15vw;
+                top: 10vh;
+                left: 10vw;
+                /* width: 190px; */
             }
 
             #launchpad {
-                position: relative;
                 top: 35vh;
-                left: 45vw;
+                left: 25vw;
+                /* width: 40px; */
             }
 
     #Text_Box {
-        height: 50vh;
+        height: 100vh;
         width: 100vw;
     }
 
@@ -68,11 +93,25 @@
 [data-trigger] {
     opacity: 0;
     position: relative;
-    left: 10px;
+    top: 10px;
     transition: .5s ease-in;
 }
 
 [data-trigger].visible {
     opacity: 1;
-    left: 0;
+    top: 0;
+}
+
+/* Animation */
+
+@keyframes sliding_img_1 {
+
+}
+
+@keyframes sliding_img_2 {
+    
+}
+
+@keyframes sliding_img_3 {
+    
 }
