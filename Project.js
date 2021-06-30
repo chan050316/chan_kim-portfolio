@@ -161,7 +161,7 @@ var project_info = [
     },
     {
         id_name: "alpha_C",
-        project_info_name: "웹페이지 만들기",
+        project_info_name: "C_LAB",
         img_class_name: "image9",
         img_link: "https://chan050316.github.io/roomme-portfolio/project_info_alpha2.html",
     }

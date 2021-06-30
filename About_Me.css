@@ -3,6 +3,26 @@
     width: 100vw;
 }
 
+    #sliding_img {
+
+    }
+
+        .img {
+
+        }
+
+        #image1 {
+            background-image: url(./IMG/About_Me1.png);
+        }
+
+        #image2 {
+            background-image: url(./IMG/About_Me2.png);
+        }
+
+        #image3 {
+            background-image: url(./IMG/About_Me3.png);
+        }
+
 #contents_Box {
     height: 100vh;
     width: 100vw;

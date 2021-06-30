@@ -173,7 +173,13 @@
             display: none;
         }
             #image9 {
-                background-image: url();
+                height: 60vh;
+                width: 35vw;
+                background-image: url(./IMG/alpha2.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                filter: grayscale(100%);
             }
 
 /* Animation */
