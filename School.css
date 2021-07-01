@@ -1,3 +1,11 @@
+/* Reset */
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
 header {
     position: fixed;
 }
@@ -10,6 +18,8 @@ header {
         position: fixed;
         right: 0;
     }
+
+/* page */
 
 #img_Box {
     background-color: wheat;
@@ -37,6 +47,7 @@ header {
     display: flex;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
     #Before_Box {
@@ -71,6 +82,10 @@ header {
             background-color: black;
             border-radius: 20px;
             margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
             .SBox:nth-child(4)  {
@@ -112,6 +127,20 @@ header {
             box-shadow: inset 20px 20px 40px #cbcbcb,
                         inset -20px -20px 40px #ffffff;
         }
+            
+            .Before_Box {
+                color: #333333;
+                text-align: left;
+            }
+
+            .After_txt {
+                color: #efefefef;
+                text-align: left;
+            }
+
+                .strong {
+                    font-weight: bold;
+                }
 
 #White_string {
     position: absolute;

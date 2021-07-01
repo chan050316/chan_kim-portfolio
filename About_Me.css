@@ -1,3 +1,15 @@
+/* Reset */
+ul, li, p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* page */
+
 #animation_img_Box {
     height: calc(100vh - 70px);
     width: 100vw;
@@ -67,25 +79,42 @@
             #coding {
                 top: 30vh;
                 left: 80vw;
-                /* width: 40px; */
             }
 
             #body_training {
                 top: 10vh;
                 left: 10vw;
-                /* width: 190px; */
             }
 
             #launchpad {
                 top: 35vh;
                 left: 25vw;
-                /* width: 40px; */
             }
 
     #Text_Box {
         height: 100vh;
         width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+        #profile_icon_img {
+            width: 20vw;
+            height: 40vh;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        #pofile {
+            width: 40vw;
+            font-size: 25px;
+            line-height: 60px;
+        }
+
+        #writing_about_me {
+            width: 40vw;
+        }
 
 
 /* scroll trigger*/
@@ -100,18 +129,4 @@
 [data-trigger].visible {
     opacity: 1;
     top: 0;
-}
-
-/* Animation */
-
-@keyframes sliding_img_1 {
-
-}
-
-@keyframes sliding_img_2 {
-    
-}
-
-@keyframes sliding_img_3 {
-    
 }

@@ -127,6 +127,15 @@ header {
         color: white;
         font-size: 20px;;
     }
+
+    .fa-long-arrow-alt-right {
+        font-size: 1em;
+        animation-name: moving_arrow;
+        animation-duration: .8s;
+        animation-iteration-count: infinite;
+        margin-left: 5px;
+        line-height: 1em;
+    }
     
 #White_string {
     position: absolute;
@@ -136,4 +145,20 @@ header {
     width: 60vw;
     border-radius: 2px;
     z-index: 10;
+}
+
+/* Animation */
+
+@keyframes moving_arrow {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
