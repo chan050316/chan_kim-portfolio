@@ -40,6 +40,12 @@
             margin: 5em auto;
         }
 
+            .span_sliding1 {
+                background-color: gray;
+                opacity: 80%;
+                width: 0;
+            }
+
     .project_info {
         position: fixed;
         right: 0;
@@ -191,3 +197,4 @@
         filter: grayscale(0%);
     }
 }
+

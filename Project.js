@@ -7,11 +7,13 @@ var projects = [
                 project_date1: "2020.3분기",
                 class_name_1: "Stxt1",
                 hover_1: "Stext_hover_1",
+                sliding_1: "1",
 
                 href_2: "./project_info_single2.html",
                 project_date2: "2020.4분기",
                 class_name_2: "Stxt2",
                 hover_2: "Stext_hover_2",
+                sliding_2: "2",
 
                 href_3: "",
                 project_date3: "",
@@ -29,11 +31,13 @@ var projects = [
                 project_date1: "2020_3분기",
                 class_name_1: "Stxt3",
                 hover_1: "Stext_hover_3",
+                sliding_1: "3",
                 
                 href_2: "./project_info_subject2.html",
                 project_date2: "2020_4분기",
                 class_name_2: "Stxt4",
                 hover_2: "Stext_hover_4",
+                sliding_2: "4",
 
                 href_3: "",
                 project_date3: "",
@@ -51,16 +55,19 @@ var projects = [
                 project_date1: "2020_3분기",
                 class_name_1: "Stxt5",
                 hover_1: "Stext_hover_5",
+                sliding_1: "5",
 
                 href_2: "./project_info_team2.html",
                 project_date2: "2020_4분기",
                 class_name_2: "Stxt6",
                 hover_2: "Stext_hover_6",
+                sliding_2: "6",
 
                 href_3: "./project_info_team3.html",
                 project_date3: "2021_1분기 ~ 2021_2분기",
                 class_name_3: "Stxt7",
                 hover_3: "Stext_hover_7",
+                sliding_2: "7",
             }
         ],
     },
@@ -73,11 +80,13 @@ var projects = [
                 project_date1: "M_LAB",
                 class_name_1: "Stxt8",
                 hover_1: "Stext_hover_8",
+                sliding_1: "8",
 
                 href_2: "./project_info_alpha2.html",
                 project_date2: "C_LAB",
                 class_name_2: "Stxt9",
                 hover_2: "Stext_hover_9",
+                sliding_2: "9",
 
                 href_3: "",
                 project_date3: "",
@@ -96,12 +105,15 @@ for (var i in projects) {
         <div class="contents_Box">
             <div class="Btext">${project.project_name}</div>
             <div class="Stext">
+            <span id="span_sliding${data.sliding_1}"></span>
                 <a href="${data.href_1}" class="${data.class_name_1}" onmouseover="${data.hover_1}()">${data.project_date1}</a>
             </div>
             <div class="Stext">
+            <span id="span_sliding${data.sliding_2}"></span>
                 <a href="${data.href_2}" class="${data.class_name_2}" onmouseover="${data.hover_2}()">${data.project_date2}</a>
             </div>
             <div class="Stext">
+            <span id="span_sliding${data.sliding_3}"></span>
                 <a href="${data.href_3}" class="${data.class_name_3}" onmouseover="${data.hover_3}()">${data.project_date3}</a>
             </div>
         </div>
