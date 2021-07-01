@@ -100,8 +100,8 @@ ul {
     }
 
         #profile_icon_img {
-            width: 20vw;
-            height: 40vh;
+            width: 300px;
+            height: 300px;
             object-fit: cover;
             border-radius: 50%;
         }
