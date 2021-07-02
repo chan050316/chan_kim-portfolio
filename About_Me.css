@@ -10,107 +10,159 @@ ul {
 
 /* page */
 
-#animation_img_Box {
-    height: calc(100vh - 70px);
+#img_section {
+    height: 120vh;
     width: 100vw;
 }
 
-    #sliding_img {
-        width: 100vw;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #img_Box {
+        display: grid;
+        margin: 5vw;
+        width: 90vw;
     }
 
         .img {
-            height: 50vh;
             width: 100%;
-            margin: 0 5vw;
+            max-width: 516px;
+            max-height: 390px;
         }
 
         #image1 {
-            background-image: url(./IMG/About_Me1.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center center;
-            animation-name: sliding_img_1;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
+            width: 335px;
+            height: 189px;
         }
 
         #image2 {
-            background-image: url(./IMG/About_Me2.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center center;
+            width: 213px;
+            height: 284px;
+            grid-column: 2 / 3;
         }
 
         #image3 {
-            background-image: url(./IMG/About_Me3.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center center;
+            width: 160px;
+            height: 284px;
+            grid-column: 2 / 3;
         }
 
         #image4 {
-            background-image: url();
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center center;
+            width: 516px;
+            height: 344px;
         }
 
+        #image5 {
+            width: 335px;
+            height: 335px;
+        }
+
+        #image6 {
+            width: 390px;
+            height: 390px;
+        }
+
+        #image7 {
+            width: 240px;
+            height: 320px;
+        }
+
+        #image8 {
+            width: 250px;
+            height: 333px;
+        }
+
+.black_string {
+    position: absolute;
+    left: 20vw;
+    background-color: #333333;
+    height: 5px;
+    width: 60vw;
+    border-radius: 2px;
+    z-index: 10;
+}
+
 #contents_Box {
-    height: 150vh;
+    padding-top: 100px;
+    height: 80vh;
     width: 100vw;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-    #keyword_Box {
+    #keyword_BBox {
         height: 50vh;
         width: 100vw;
     }
-
-        .My_hobby_keyword {
-            font-size: 30px;
-            font-weight: 700;
+        #My_Keyword {
+            position: absolute;
+            left: 50vw;
+            transform: translateX(-50%);
+            font-size: 50px;
         }
 
-            #coding {
-                top: 30vh;
-                left: 80vw;
+        #keywords_Box {
+            display: flex;
+            padding-top: 30vh;
+            justify-content: center;
+        }
+
+            .My_hobby_keywords {
+                font-size: 30px;
+                font-weight: 700;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: black solid 2px;
+                text-align: center;
+                line-height: 250px;
             }
 
-            #body_training {
-                top: 10vh;
-                left: 10vw;
-            }
+                #coding {
+                    margin: 0 5vw;
+                }
 
-            #launchpad {
-                top: 35vh;
-                left: 25vw;
-            }
+                #body_training {
+                    margin: 0 5vw;
+                }
 
-    #Text_Box {
-        height: 100vh;
-        width: 100vw;
+                #launchpad {
+                    margin: 0 5vw;
+                }
+
+#profile_BBox {
+    height: 100vh;
+    width: 100vw;
+    padding: 20vh 0;
+}
+
+    #My_profile {
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-50%);
+        font-size: 50px;
+    }
+
+    #profile_Box {
+        padding-top: 20vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-        #profile_icon_img {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 50%;
-        }
 
         #pofile {
             width: 40vw;
             font-size: 25px;
             line-height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
+
+            #profile_icon_img {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-bottom: 50px;
+            }
 
         #writing_about_me {
             width: 40vw;

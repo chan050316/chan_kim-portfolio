@@ -88,8 +88,25 @@ header {
             align-items: center;
         }
 
+            p {
+                display: none;
+                line-height: 25px;
+                font-weight: 600;
+            }
+
             .SBox:nth-child(4)  {
                 grid-column: 2 / 4;
+            }
+
+            .SBox:hover > p{
+                display: block;
+            }
+
+            .SBox:hover > .Before_txt{
+                display: none;
+            }
+            .SBox:hover > .After_txt {
+                display: none;
             }
 
         .Before {
