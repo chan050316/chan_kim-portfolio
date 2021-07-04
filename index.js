@@ -4,5 +4,5 @@ var a = document.querySelector('body');
       setTimeout(function () {
         // a.classList.remove('hidden')
         window.location.href = 'Main_page.html'
-      }, 5500);
+      }, 5000);
     }
