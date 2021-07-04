@@ -1,0 +1,58 @@
+/* Reset */
+
+body {
+    margin: 0;
+}
+
+
+#contents_Box {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+    #Text_Box {
+        font-size: 10em;
+        display: flex;
+        width: 51vw;
+    }
+
+        #sliding_Box {
+            width: 0;
+            height: 232px;
+            background-color: white;
+            animation-name: sliding;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+
+        #kimchan {
+            position: absolute;
+            color: black;
+        }
+
+@keyframes sliding{
+    0% {
+        width: 0;
+    }
+
+    20% {
+        width: 15%;
+    }
+
+    40% {
+        width: 20%;
+    }
+
+    60% {
+        width: 38%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
