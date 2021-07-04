@@ -152,7 +152,7 @@ ul {
     }
 
         #pofile {
-            padding-top: 5vh;
+            padding: 5vh 0;
             width: 40vw;
             font-size: 23px;
             line-height: 60px;
