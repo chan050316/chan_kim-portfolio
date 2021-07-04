@@ -162,7 +162,7 @@ header {
                 }
 
 #White_string {
-    position: absolute;
+    position: relative;
     left: 20vw;
     background-color: white;
     height: 5px;
@@ -172,5 +172,6 @@ header {
 }
 
 footer {
-    position: absolute;
+    position: relative;
+    justify-content: center;
 }

@@ -92,34 +92,24 @@ header {
         background-color: #333333;
         border-radius: 20px;
         background: #333333;
-        box-shadow: 20px 20px 40px #262626,
-                    -20px -20px 40px #404040;
+        box-shadow: inset 20px 20px 40px #262626,
+                    inset -20px -20px 40px #404040;
         width: 70vw;
         height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         color: white;
         font-size: 30px;
-        line-height: 50px;
+        line-height: 45px;
         font-family: 'Nanum Gothic', sans-serif;
     }
 
         .bord_text {
             font-weight: bold;
         }
-
-        #Text_Box:hover {
-            background: linear-gradient(145deg, #2e2e2e, #373737);
-        }
-
-        #Text_Box:active {
-            background: #333333;
-            box-shadow: inset 20px 20px 40px #262626,
-                        inset -20px -20px 40px #404040;
-        }
-
 
 /* Animation */
 

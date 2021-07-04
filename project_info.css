@@ -1,3 +1,17 @@
+/* Reset */
+
+ol, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ol {
+    border: white solid 2px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
 header {
     position: fixed;
 }
@@ -12,7 +26,6 @@ header {
     }
 
 #img_Box {
-    background-color: wheat;
     height: 100vh;
     width: 100vw;
     font-size: 80px;
@@ -111,7 +124,7 @@ header {
                 display: none;
             }
 
-#info_href_text_Box {
+.info_href_text_Box {
     background-color: #333333;
     height: 15vh;
     width: 100vw;
@@ -128,7 +141,7 @@ header {
         font-size: 20px;;
     }
 
-    .fa-long-arrow-alt-right {
+    .info_href_text_Box > .info_href_text > .fa-long-arrow-alt-right {
         font-size: 1em;
         animation-name: moving_arrow;
         animation-duration: .8s;

@@ -1,3 +1,7 @@
+#Rome {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -18,8 +22,9 @@ a {
     }
     
 #img_Box {
-    background-image: url(./IMG/team3_info.png);
+    background-image: url(./IMG/team1_info.png);
     background-size: 100%;
-    background-position: center center;
+    background-position: center 20%;
+    filter: grayscale(100%);
     background-repeat: no-repeat;
 }

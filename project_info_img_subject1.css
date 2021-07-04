@@ -21,4 +21,5 @@ a {
     background-image: url(./IMG/subject1_info.png);
     background-size: 100%;
     background-position: center 70%;
+    background-repeat: no-repeat;
 }
