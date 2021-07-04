@@ -134,7 +134,7 @@ ul {
 #profile_BBox {
     height: 100vh;
     width: 100vw;
-    padding: 20vh 0;
+    padding: 10vh 0 20vh 0;
 }
 
     #My_profile {
@@ -152,13 +152,18 @@ ul {
     }
 
         #pofile {
+            padding-top: 5vh;
             width: 40vw;
-            font-size: 25px;
+            font-size: 23px;
             line-height: 60px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            border-radius: 50px;
+            background: #ffffff;
+            box-shadow: inset 20px 20px 60px #d9d9d9,
+                        inset -20px -20px 60px #ffffff;
         }
 
             #profile_icon_img {
@@ -167,6 +172,8 @@ ul {
                 object-fit: cover;
                 border-radius: 50%;
                 margin-bottom: 50px;
+                box-shadow: 20px 20px 60px #d9d9d9,
+                            -20px -20px 60px #ffffff;
             }
 
         #writing_about_me {
