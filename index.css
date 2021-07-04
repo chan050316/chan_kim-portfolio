@@ -27,7 +27,6 @@ body {
             background-color: white;
             animation-name: sliding;
             animation-duration: 6s;
-            animation-iteration-count: infinite;
             animation-fill-mode: forwards;
         }
 
