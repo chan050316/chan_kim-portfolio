@@ -18,12 +18,12 @@ body {
     #Text_Box {
         font-size: 10em;
         display: flex;
-        width: 51vw;
+        width: 4.6em;
     }
 
         #sliding_Box {
             width: 0;
-            height: 232px;
+            height: 1.5em;
             background-color: white;
             animation-name: sliding;
             animation-duration: 4s;
@@ -34,6 +34,25 @@ body {
             position: absolute;
             color: black;
         }
+
+/* Media query */
+@media (max-width: 480px) {
+    #Text_Box {
+        font-size: 5em;
+        width: 4.6em;
+    }
+
+        #sliding_Box {
+            width: 0;
+            height: 1.5em;
+            background-color: white;
+            animation-name: sliding;
+            animation-duration: 4s;
+            animation-fill-mode: forwards;
+        }
+}
+
+/* Animation */
 
 @keyframes sliding{
     0% {

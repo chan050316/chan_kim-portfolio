@@ -5,6 +5,10 @@ body,ul,li,section{
     margin: 0;
 }
 
+body {
+    height: fit-content;
+}
+
 /* NAME */
 
 header {
