@@ -38,7 +38,7 @@ body {
 /* Media query */
 @media (max-width: 480px) {
     #Text_Box {
-        font-size: 5em;
+        font-size: 4em;
         width: 4.6em;
     }
 
