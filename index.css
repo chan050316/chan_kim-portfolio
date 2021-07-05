@@ -36,20 +36,28 @@ body {
         }
 
 /* Media query */
+@media (min-width: 1600px) {
+    #Text_Box {
+        font-size: 12em;
+    }
+}
+
+@media (max-width: 1024px) {
+    #Text_Box {
+        font-size: 8em;
+    }
+}
+
+@media (max-width: 768px) {
+    #Text_Box {
+        font-size: 6em;
+    }
+}
+
 @media (max-width: 480px) {
     #Text_Box {
         font-size: 4em;
-        width: 4.6em;
     }
-
-        #sliding_Box {
-            width: 0;
-            height: 1.5em;
-            background-color: white;
-            animation-name: sliding;
-            animation-duration: 4s;
-            animation-fill-mode: forwards;
-        }
 }
 
 /* Animation */
