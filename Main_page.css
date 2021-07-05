@@ -30,7 +30,7 @@ header {
 
     #name {
         margin: auto;
-        font-size: 100px;
+        font-size: 6em;
         font-weight: bolder;
         height: 1.2em;
         line-height: 1.2em;
@@ -110,6 +110,31 @@ header {
         .bord_text {
             font-weight: bold;
         }
+
+/* Media query */
+@media (min-width: 1600px) {
+    #name {
+        font-size: 7em;
+    }
+}
+
+@media (max-width: 1024px) {
+    #name {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 768px) {
+    #name {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 480px) {
+    #name {
+        font-size: 3em;
+    }
+}
 
 /* Animation */
 
