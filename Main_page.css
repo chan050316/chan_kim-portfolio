@@ -146,7 +146,7 @@ header {
 
 @media (max-width: 768px) {
     #name {
-        font-size: 1em;
+        font-size: 3em;
     }
 
     #Bar {
@@ -162,7 +162,7 @@ header {
 
 @media (max-width: 480px) {
     #name {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     #Bar {

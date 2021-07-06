@@ -112,6 +112,7 @@ ul {
             left: 50vw;
             transform: translateX(-50%);
             font-size: 50px;
+            text-align: center;
         }
 
         #keywords_Box {
@@ -214,6 +215,19 @@ ul {
             grid-column: 10 / 17;
             grid-row: 16 / 20;
         }
+
+        
+    #coding {
+        margin: 0 2.5vw;
+    }
+    
+    #body_training {
+        margin: 0 2.5vw;
+    }
+    
+    #launchpad {
+        margin: 0 2.5vw;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -241,6 +255,25 @@ ul {
         #image8 {
             grid-column: 7 / 13;
             grid-row: 21 / 30;
+        }
+        
+    .My_hobby_keywords {
+        font-size: 20px;
+        width: 10em;
+        height: 10em;
+        line-height: 10em;
+    }
+    
+        #coding {
+            margin: 0 1.5vw;
+        }
+            
+        #body_training {
+            margin: 0 1.5vw;
+        }
+            
+        #launchpad {
+            margin: 0 1.5vw;
         }
 }
         
@@ -284,6 +317,24 @@ ul {
         #image8 {
             display: none;
         }    
+
+    #keywords_Box {
+        flex-direction: column;
+        padding-top: 15vh;
+        align-items: center;
+    }
+
+        #coding {
+            margin: 10px 0;
+        }
+            
+        #body_training {
+            margin: 10px 0;
+        }
+            
+        #launchpad {
+            margin: 10px 0;
+        }
 }
         
 @media (max-width: 480px) {
