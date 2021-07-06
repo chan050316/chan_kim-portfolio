@@ -283,13 +283,13 @@ footer {
     }
 
         #Before_Box {
-            grid-template-columns: repeat(1, 270px);
+            grid-template-columns: repeat(1, 300px);
             grid-template-rows: repeat(3, 1fr);
             top: -36.5vh;
         }
 
         #After_Box {
-            grid-template-columns: repeat(1, 270px);
+            grid-template-columns: repeat(1, 300px);
             grid-template-rows: repeat(3, 1fr);
         }
 
