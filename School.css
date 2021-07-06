@@ -9,24 +9,37 @@ p {
 header {
     position: fixed;
 }
-
-    #headerMenu_Box {
-        height: 30px;
-        width: 42vw;
-        margin: 20px 0;
-        display: flex;
+    
+    .headerMenu_Box {
         position: fixed;
         right: 0;
     }
 
-    a {
+    .menus {
         text-decoration: none;
         color: white;
     }
 
-    .headerMenu {
-        border-right: white solid 1px;
+        .headerMenu {
+            border-right: white solid 1px;
+        }
+
+            .headerMenu:nth-child(3) {
+                border: none;
+            }
+
+    .fa-bars {
+        color: white;
     }
+
+@media (max-width: 768px) {
+    .headerMenu{
+        border: none;
+    }
+
+
+}
+
 
 /* page */
 

@@ -1,25 +1,13 @@
-a {
-    text-decoration: none;
-    color: black;
-}
-    a:hover {
-        font-weight: 700;
-    }
-
-    .headerMenu {
-        font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 30px;
-        width: 14vw;
-        text-align: center;
-        border-right: black solid 1px;
-    }
-    
 #img_Box {
     background-image: url(./IMG/alpha1_info.png);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    .menus {
+        color: white;
+    }
 }

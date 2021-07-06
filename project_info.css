@@ -16,18 +16,24 @@ header {
     position: fixed;
 }
 
-    #headerMenu_Box {
-        height: 30px;
-        width: 42vw;
-        margin: 20px 0;
-        display: flex;
+    .headerMenu_Box {
         position: fixed;
         right: 0;
     }
 
+    .fa-bars {
+        opacity: 0%;
+    }
+
+@media (max-width: 768px) {
+    .fa-bars {
+        opacity: 100%;
+    }
+}
+
 #img_Box {
     height: 100vh;
-    width: 100vw;
+    width: 1440px;
     font-size: 80px;
     color: white;
     text-align: center;
@@ -86,17 +92,16 @@ header {
 
             .icon_Box {
                 display: none;
-            }
+            }  
 
-                .fas {
+                .fa-question {
+                    font-size: 50px;
                     color: white;
                 }
-                    .fa-question {
-                        font-size: 50px;
-                    }
-                    .fa-cube, .fa-hammer, .fa-long-arrow-alt-right{
-                        font-size: 60px;
-                    }
+                .fa-cube, .fa-hammer, .fa-long-arrow-alt-right{
+                    font-size: 60px;
+                    color: white;
+                }
 
             /* Box_shadow */
             .black_box:hover {

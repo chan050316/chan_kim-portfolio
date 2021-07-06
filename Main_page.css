@@ -11,7 +11,7 @@ header {
     position: fixed;
 }
 
-    #headerMenu_Box {
+    .headerMenu_Box {
         position: fixed;
         right: 0;
     }
@@ -61,7 +61,7 @@ header {
     height: 40vh;
     font-family: 'Nanum Gothic', sans-serif;
     color: white;
-    font-size: 35px;
+    font-size: 2em;
     text-align: center;
     line-height: 40vh;
     z-index: 20;
@@ -94,7 +94,7 @@ header {
         background: #333333;
         box-shadow: inset 20px 20px 40px #262626,
                     inset -20px -20px 40px #404040;
-        width: 70vw;
+        width: 40vw;
         height: 70vh;
         display: flex;
         flex-direction: column;
@@ -102,8 +102,8 @@ header {
         align-items: center;
         text-align: center;
         color: white;
-        font-size: 30px;
-        line-height: 45px;
+        font-size: 1.75em;
+        line-height: 1.75em;
         font-family: 'Nanum Gothic', sans-serif;
     }
 
@@ -116,23 +116,59 @@ header {
     #name {
         font-size: 7em;
     }
+
+    #Bar {
+        font-size: 3em;
+    }
+
+    #Text_Box {
+        font-size: 2em;
+        line-height: 2em;
+    }
 }
 
 @media (max-width: 1024px) {
     #name {
         font-size: 5em;
     }
+
+    #Bar {
+        font-size: 1.75em;
+    }
+
+    #Text_Box {
+        font-size: 1.25em;
+        line-height: 1.25em;
+    }
 }
 
 @media (max-width: 768px) {
     #name {
-        font-size: 4em;
+        font-size: 1em;
+    }
+
+    #Bar {
+        font-size: 1.5em;
+    }
+
+    #Text_Box {
+        font-size: .85em;
+        line-height: .85em;
     }
 }
 
 @media (max-width: 480px) {
     #name {
         font-size: 3em;
+    }
+
+    #Bar {
+        font-size: 1.25em;
+    }
+
+    #Text_Box {
+        font-size: .75em;
+        line-height: .75em;
     }
 }
 

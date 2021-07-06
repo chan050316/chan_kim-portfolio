@@ -13,20 +13,27 @@ a {
         font-weight: 700;
     }
 
-/* Header*/
+.hidden {
 
+}
+
+/* Header*/
 header {
     display: flex;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-    #logo {
-        height: 30px;
-        margin: 20px 0 20px 30px;
-        width: 100px;
+    .logoa {
+        width: 130px;
     }
 
-    #headerMenu_Box {
+        #logo {
+            height: 30px;
+            margin: 20px 0 20px 30px;
+            width: 100px;
+        }
+
+    .headerMenu_Box {
         height: 30px;
         width: 42vw;
         margin: 20px 0 20px auto;
@@ -47,3 +54,55 @@ header {
             .headerMenu:nth-child(3) {
                 border: none;
             }
+
+        .fa-bars {
+            color: white;
+        }
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+        .headerMenu_Box {
+            margin: 70px 5vw 0 5vw;
+            height: 150px;
+            width: 90vw;
+            flex-direction: column;  
+            justify-content: center;     
+            align-items: center;
+            background-color: #333333;
+        }
+
+            .headerMenu {
+                height: 150px;
+                width: 90vw;
+                text-align: center;
+                border: none;
+            }
+
+            .menus {
+                color: white;
+                line-height: 3.5em;
+            }
+
+            .menus:hover {
+                background-color: white;
+                color: #333333;
+            }
+
+        .fa-bars {
+            color: #333333;
+            font-size: 30px;
+            position: absolute;
+            top: 20px;
+            left: 90vw;
+            cursor: pointer;
+            opacity: 100%;
+        }
+
+    .hidden {
+        display: none;
+    }
+}

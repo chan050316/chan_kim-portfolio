@@ -15,20 +15,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./About_Me.css">
-    <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./About_Me.css">
+
 </head>
 
 <body>
     <header>
-        <a href="./Main_page.html">
+        <a href="./Main_page.html" class="logoa">
             <svg xmlns="http://www.w3.org/2000/svg" width="81" height="36" viewBox="0 0 81 36" id="logo">
             <text id="Rome" transform="translate(0 27)" font-size="30" font-family="AppleSDGothicNeo-Heavy, Apple SD Gothic Neo" font-weight="800"><tspan x="0" y="0">Rome</tspan></text>
             </svg>
-        </a>  
-        <div id="headerMenu_Box">
+        </a>
+        <div class="headerMenu_Box hidden">
         </div>
+        <i class="fas fa-bars" onclick="menu_open()"></i>
     </header>
 
     <section id="img_section">
@@ -130,7 +132,6 @@
             }
         });
         trigger.add('[data-trigger]');
-
     </script>
 </body>
 
