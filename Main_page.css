@@ -94,7 +94,7 @@ header {
         background: #333333;
         box-shadow: inset 20px 20px 40px #262626,
                     inset -20px -20px 40px #404040;
-        width: 40vw;
+        width: 70vw;
         height: 70vh;
         display: flex;
         flex-direction: column;
@@ -124,6 +124,7 @@ header {
     #Text_Box {
         font-size: 2em;
         line-height: 2em;
+        height: 80vh;
     }
 }
 
@@ -137,8 +138,8 @@ header {
     }
 
     #Text_Box {
-        font-size: 1.25em;
-        line-height: 1.25em;
+        font-size: 1.5em;
+        line-height: 1.5em;
         height: 60vh;
     }
 }
@@ -153,8 +154,8 @@ header {
     }
 
     #Text_Box {
-        font-size: .5em;
-        line-height: .5em;
+        font-size: 1.25em;
+        line-height: 1.25em;
         height: 50vh;
     }
 }
@@ -169,8 +170,8 @@ header {
     }
 
     #Text_Box {
-        font-size: .5em;
-        line-height: .5em;
+        font-size: 1em;
+        line-height: 1em;
         height: 40vh;
     }
 }
