@@ -187,22 +187,6 @@ header {
                     font-weight: bold;
                 }
 
-#White_string {
-    position: relative;
-    left: 20vw;
-    background-color: white;
-    height: 5px;
-    width: 60vw;
-    border-radius: 2px;
-    z-index: 10;
-}
-
-footer {
-    position: relative;
-    justify-content: center;
-}
-
-
 /* Media query */
 @media (min-width: 1600px) {
     
