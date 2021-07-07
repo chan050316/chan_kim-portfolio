@@ -97,14 +97,14 @@ ul {
 }
 
 #contents_Box {
-    padding-top: 100px;
-    height: 80vh;
+    padding: 100px 0;
+    height: 100%;
     width: 100vw;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
     #keyword_BBox {
-        height: 50vh;
+        height: 100%;
         width: 100vw;
     }
         #My_Keyword {
@@ -117,7 +117,7 @@ ul {
 
         #keywords_Box {
             display: flex;
-            padding-top: 30vh;
+            padding-top: 200px;
             justify-content: center;
         }
 
@@ -279,6 +279,11 @@ ul {
         
 @media (max-width: 768px) {
 
+    #img_section {
+        height: 80vh;
+        justify-content: center;
+    }
+
     #img_Box {
         display: grid;
         grid-template-columns: repeat(5, 50px);
@@ -320,8 +325,9 @@ ul {
 
     #keywords_Box {
         flex-direction: column;
-        padding-top: 15vh;
+        padding-top: 200px;
         align-items: center;
+        justify-content: center;
     }
 
         #coding {
