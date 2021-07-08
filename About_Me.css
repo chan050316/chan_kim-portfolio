@@ -165,9 +165,9 @@ ul {
         align-items: center;
     }
 
-        #pofile {
+        #profile {
             padding: 5vh 0;
-            width: 40vw;
+            width: 480px;
             font-size: 23px;
             line-height: 60px;
             display: flex;
@@ -345,7 +345,13 @@ ul {
 }
         
 @media (max-width: 480px) {
+    #My_Keyword {
+        font-size: 40px;
+    }
 
+    #profile {
+        border-radius: 0px;
+    }
 }
 
 /* scroll trigger*/
