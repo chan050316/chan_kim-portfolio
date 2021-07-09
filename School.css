@@ -215,6 +215,10 @@ header {
 }
 
 @media (max-width: 1024px) {
+    #img_Box {
+        font-size: 70px;
+    }
+
     #Before_Box {
         grid-template-columns: repeat(3, 270px);
         grid-template-rows: repeat(2, 1fr);
@@ -237,6 +241,10 @@ header {
 }
 
 @media (max-width: 768px) {
+    #img_Box {
+        font-size: 60px;
+    }
+
     #Before_Box {
         grid-template-columns: repeat(2, 270px);
         grid-template-rows: repeat(2, 1fr);
@@ -263,6 +271,10 @@ header {
 }
 
 @media (max-width: 480px) {
+    #img_Box {
+        font-size: 50px;
+    }
+
     .Box {
         height: max-content;
     }

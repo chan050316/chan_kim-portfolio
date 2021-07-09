@@ -68,7 +68,7 @@
             }
 
         #single_M3 {
-            display: none;
+            display: block;
         }
             #image1 {
                 height: 60vh;
@@ -188,6 +188,21 @@
                 background-position: center center;
                 filter: grayscale(100%);
             }
+/* Media query */
+
+@media (max-width: 768px) {
+    .project_info {
+        right: 0px;
+        bottom: 15vh;
+        width: 50vw;
+        height: 75vh;
+        font-size: 30px;
+    }
+}
+        
+@media (max-width: 480px) {
+
+}
 
 /* Animation */
 @keyframes img_opacity_change {
