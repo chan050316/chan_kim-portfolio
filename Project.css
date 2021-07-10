@@ -56,6 +56,10 @@
         font-size: 30px;
     }
 
+        .project_Name {
+            font-size: 30px;
+        }
+
         .project_info_img {
             box-shadow: gray 10px 10px 10px;
         }
@@ -190,13 +194,15 @@
             }
 /* Media query */
 
+@media (max-width: 1024px) {
+    .project_Name {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 768px) {
-    .project_info {
-        right: 0px;
-        bottom: 15vh;
-        width: 50vw;
-        height: 75vh;
-        font-size: 30px;
+    #project_info_Box {
+        display: none;
     }
 }
         

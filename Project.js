@@ -4,21 +4,22 @@ var projects = [
         info_data: [
             {
                 href_1: "./project_info_single1.html",
-                project_date1: "2020.3분기",
+                project_date_1: "2020.3분기",
                 class_name_1: "Stxt1",
                 hover_1: "Stext_hover_1",
-                sliding_1: "1",
+                subtitle_1: "사회적 거리두기로 인한 삼시세끼의 변화",
 
                 href_2: "./project_info_single2.html",
-                project_date2: "2020.4분기",
+                project_date_2: "2020.4분기",
                 class_name_2: "Stxt2",
                 hover_2: "Stext_hover_2",
-                sliding_2: "2",
+                subtitle_2: "사람들이 스타벅스에 미치는 이유",
 
                 href_3: "",
-                project_date3: "",
+                project_date_3: "",
                 class_name_3: "",
                 hover_3: "",
+                subtitle_3: "",
             }
         ]
     },
@@ -28,21 +29,22 @@ var projects = [
         info_data: [
             {
                 href_1: "./project_info_subject1.html",
-                project_date1: "2020_3분기",
+                project_date_1: "2020_3분기",
                 class_name_1: "Stxt3",
                 hover_1: "Stext_hover_3",
-                sliding_1: "3",
+                subtitle_1: "천연 공기청정기; 이끼",
                 
                 href_2: "./project_info_subject2.html",
-                project_date2: "2020_4분기",
+                project_date_2: "2020_4분기",
                 class_name_2: "Stxt4",
                 hover_2: "Stext_hover_4",
-                sliding_2: "4",
+                subtitle_2: "지속가능한 삶을 위한 학교",
 
                 href_3: "",
-                project_date3: "",
+                project_date_3: "",
                 class_name_3: "",
                 hover_3: "",
+                subtitle_3: "",
             }
         ]
     },
@@ -52,22 +54,22 @@ var projects = [
         info_data: [
             {
                 href_1: "./project_info_team1.html",
-                project_date1: "2020_3분기",
+                project_date_1: "2020_3분기",
                 class_name_1: "Stxt5",
                 hover_1: "Stext_hover_5",
-                sliding_1: "5",
+                subtitle_1: "우울한 청소년들",
 
                 href_2: "./project_info_team2.html",
-                project_date2: "2020_4분기",
+                project_date_2: "2020_4분기",
                 class_name_2: "Stxt6",
                 hover_2: "Stext_hover_6",
-                sliding_2: "6",
+                subtitle_2: "전통시장이 활성화되지 않는 것이 문제이다",
 
                 href_3: "./project_info_team3.html",
-                project_date3: "2021_1분기 ~ 2021_2분기",
+                project_date_3: "2021_1분기 ~ 2021_2분기",
                 class_name_3: "Stxt7",
                 hover_3: "Stext_hover_7",
-                sliding_2: "7",
+                subtitle_3: "윈썸",
             }
         ],
     },
@@ -77,21 +79,22 @@ var projects = [
         info_data: [
             {
                 href_1: "./project_info_alpha1.html",
-                project_date1: "M_LAB",
+                project_date_1: "M_LAB",
                 class_name_1: "Stxt8",
                 hover_1: "Stext_hover_8",
-                sliding_1: "8",
+                subtitle_1: "SSAP",
 
                 href_2: "./project_info_alpha2.html",
-                project_date2: "C_LAB",
+                project_date_2: "C_LAB",
                 class_name_2: "Stxt9",
                 hover_2: "Stext_hover_9",
-                sliding_2: "9",
+                subtitle_2: "Coding",
 
                 href_3: "",
-                project_date3: "",
+                project_date_3: "",
                 class_name_3: "",
                 hover_3: "",
+                subtitle_3: "",
             }
         ],
     }
@@ -105,16 +108,22 @@ for (var i in projects) {
         <div class="contents_Box">
             <div class="Btext">${project.project_name}</div>
             <div class="Stext">
-            <span id="span_sliding${data.sliding_1}"></span>
-                <a href="${data.href_1}" class="${data.class_name_1}" onmouseover="${data.hover_1}()">${data.project_date1}</a>
+                <a href="${data.href_1}" class="${data.class_name_1}" onmouseover="${data.hover_1}()">
+                    ${data.project_date_1}<br>
+                    ${data.subtitle_1}
+                </a>
             </div>
             <div class="Stext">
-            <span id="span_sliding${data.sliding_2}"></span>
-                <a href="${data.href_2}" class="${data.class_name_2}" onmouseover="${data.hover_2}()">${data.project_date2}</a>
+                <a href="${data.href_2}" class="${data.class_name_2}" onmouseover="${data.hover_2}()">
+                    ${data.project_date_2}<br>
+                    ${data.subtitle_2}
+                </a>
             </div>
             <div class="Stext">
-            <span id="span_sliding${data.sliding_3}"></span>
-                <a href="${data.href_3}" class="${data.class_name_3}" onmouseover="${data.hover_3}()">${data.project_date3}</a>
+                <a href="${data.href_3}" class="${data.class_name_3}" onmouseover="${data.hover_3}()">
+                    ${data.project_date_3}<br>
+                    ${data.subtitle_3}
+                </a>
             </div>
         </div>
         `;
@@ -173,7 +182,7 @@ var project_info = [
     },
     {
         id_name: "alpha_C",
-        project_info_name: "C_LAB",
+        project_info_name: "Coding (HTML, CSS, JS)",
         img_class_name: "image9",
         img_link: "https://chan050316.github.io/chan_kim-portfolio/project_info_alpha2.html",
     }
