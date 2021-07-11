@@ -1,0 +1,12 @@
+#img_Box {
+    background-image: url(./IMG/alpha2_info.png);
+    background-position: center 80%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    .menus {
+        color: white;
+    }
+}
