@@ -76,7 +76,7 @@ header {
         }
 
             .headerMenu {
-                height: 150px;
+                height: 50px;
                 width: 90vw;
                 text-align: center;
                 border: none;
@@ -84,7 +84,7 @@ header {
 
             .menus {
                 color: white;
-                line-height: 3.5em;
+                line-height: 50px;
             }
 
             .menus:hover {
