@@ -347,6 +347,12 @@ ul {
 @media (max-width: 480px) {
     #My_Keyword {
         font-size: 30px;
+        font-weight: 700;
+    }
+
+    #My_profile {
+        font-size: 30px;
+        font-weight: 700;
     }
 
     #profile {
