@@ -20,7 +20,7 @@
 
     .contents_Box {
         margin: 180px 0 0 180px;
-        width: 30vw;
+        width: 300px;
         font-family: 'Nanum Gothic', sans-serif;
         font-family: 'Noto Sans JP', sans-serif;
     }
@@ -209,7 +209,13 @@
 }
         
 @media (max-width: 480px) {
+    .contents_Box {
+        margin: 180px 0 0 80px;
+    }
 
+        .Stext {
+            text-align: left;
+        }
 }
 
 /* Animation */
