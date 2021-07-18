@@ -5,8 +5,13 @@
 }
 
 @media (max-width: 768px) {
-
     .menus {
         color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    #img_Box {
+        background-position: 30% 80%;
     }
 }
