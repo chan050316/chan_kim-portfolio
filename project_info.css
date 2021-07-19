@@ -188,7 +188,13 @@ header {
         font-size: 40px;
     }
 }
-        
+
+@media (max-width: 580px) {
+    .info_href_text {
+        font-size: 17.5px;
+    }
+}
+
 @media (max-width: 480px) {
     #img_Box {
         font-size: 25px;
@@ -196,6 +202,10 @@ header {
 
     .Hover_Text {
         font-size: 10px;
+    }
+
+    .info_href_text {
+        font-size: 15px;
     }
 }
 
