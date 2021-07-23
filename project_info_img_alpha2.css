@@ -15,3 +15,226 @@
         background-position: 30% 80%;
     }
 }
+
+/* Reset */
+
+ol, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ol {
+    border: white solid 2px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+header {
+    position: fixed;
+}
+
+    .headerMenu_Box {
+        position: fixed;
+        right: 0;
+    }
+
+    .fa-bars {
+        opacity: 0%;
+    }
+
+@media (max-width: 768px) {
+    .fa-bars {
+        opacity: 100%;
+    }
+}
+
+#img_Box {
+    height: 100vh;
+    width: 100vw;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    position: fixed;
+    z-index: -10;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-size: cover;
+}
+
+    .White_Box {
+        height: 100vh;
+        width: 100vw;
+    }
+
+#Golden_circle {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    background-color: #333333;
+    z-index: 10;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+    #contents_Box {
+        margin: 0 64px;
+        padding: 7.5vh 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5vh;
+    }
+
+        .black_box {
+            background-color: #333333;
+            border-radius: 20px;
+            box-shadow: 20px 20px 40px #262626,
+                        -20px -20px 40px #404040;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .Before_Text {
+                color: white;
+                font-size: 30px;
+            }
+
+            .Hover_Text {
+                text-align: center;
+                color: white;
+                font-size: 15px;
+                line-height: 25px;
+                display: none;
+            }
+
+            .icon_Box {
+                display: none;
+            }  
+
+                .fa-question {
+                    font-size: 50px;
+                    color: white;
+                }
+                .fa-cube, .fa-hammer, .fa-long-arrow-alt-right{
+                    font-size: 60px;
+                    color: white;
+                }
+
+            /* Box_shadow */
+            .black_box:hover {
+                background: linear-gradient(145deg, #2e2e2e, #373737);
+            }
+        
+            /* Hover_Text */
+            .black_box:hover > .Before_Text {
+                display: none;
+            }
+            .black_box:hover > .Hover_Text {
+                display: block;
+            }
+
+
+.info_href_text_Box {
+    background-color: #333333;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+    .info_href_text {
+        color: white;
+        font-size: 20px;;
+    }
+
+    .info_href_text_Box > .info_href_text > .fa-long-arrow-alt-right {
+        font-size: 1em;
+        animation-name: moving_arrow;
+        animation-duration: .8s;
+        animation-iteration-count: infinite;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    
+#White_string {
+    position: absolute;
+    left: 20vw;
+    background-color: white;
+    height: 5px;
+    width: 60vw;
+    border-radius: 2px;
+    z-index: 10;
+}
+
+@media (min-width: 1600px) {
+
+}
+
+@media (max-width: 1024px) {
+    #img_Box {
+        font-size: 50px;
+    }
+    
+    #contents_Box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+        
+@media (max-width: 768px) {
+    #img_Box {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 580px) {
+    .info_href_text {
+        font-size: 15px;
+    }
+
+    .Before_Text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    #img_Box {
+        font-size: 25px;
+    }
+
+    .Hover_Text {
+        font-size: 10px;
+    }
+
+    .info_href_text {
+        font-size: 12px;
+    }
+
+    .Before_Text {
+        font-size: 20px;
+    }
+}
+
+/* Animation */
+
+@keyframes moving_arrow {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
