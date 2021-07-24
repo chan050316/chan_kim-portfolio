@@ -190,11 +190,6 @@ ul {
                             -20px -20px 60px #ffffff;
             }
 
-        #writing_about_me {
-            width: 40vw;
-            line-height: 5em;
-        }
-
 /* Media query */
 @media (min-width: 1600px) {
 
@@ -357,7 +352,17 @@ ul {
 
     #profile {
         border-radius: 0px;
+        width: 80vw;
     }
+
+        #profile_icon_img {
+            width: 200px;
+            height: 200px;
+        }
+
+        #profile {
+            font-size: 20px;
+        }
 }
 
 /* scroll trigger*/
